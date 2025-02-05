@@ -1,0 +1,18 @@
+body {
+    background-color: dimgray;
+}
+a {
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: cadetblue;
+}
+
+h2 {
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+h4 {
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
