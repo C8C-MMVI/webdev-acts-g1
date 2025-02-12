@@ -1,16 +1,31 @@
 body {
-    background-color: dimgray;
+    background-color: cornsilk;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
+
 a {
-    font-family: 'Franklin Gothic Medium', sans-serif;
-    font-style: normal;
+    font-family: 'Verdana', sans-serif;
     font-weight: bold;
-    color: cadetblue;
+    font-size: 24px;
+    color: #005733;
+    text-decoration: none;
+    margin-right: 10px;
+    border: #A7B49E solid 3px;
+    background-color: #e2e0c88c;
+    padding: 5px
+}
+
+a.active{
+    background-color: rgba(34, 139, 34, 0.336);
 }
 
 h2 {
-    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: white;
+    font-family: 'Arial', sans-serif;
+    color: #818C78;
+    font-size: 30px;
 }
 
 h4 {
