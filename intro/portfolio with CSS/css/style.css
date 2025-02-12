@@ -34,6 +34,10 @@ h2 {
     font-size: 30px;
 }
 
+h2:hover{
+    color: aquamarine;
+}
+
 /*Home page*/
 h4 {
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
