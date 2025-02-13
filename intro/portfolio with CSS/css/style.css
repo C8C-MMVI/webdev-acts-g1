@@ -13,12 +13,14 @@ hr{
 }
 
 a {
+    display: flex;
+    justify-content: center;
     font-family: 'Verdana', sans-serif;
     font-weight: bold;
     font-size: 18px;
     color: #005733;
     text-decoration: none;
-    margin-right: 10px;
+    margin-bottom: 5px;
     border: #A7B49E solid 3px;
     border-style: dashed;
     background-color: #e2e0c88c;
@@ -85,13 +87,14 @@ table{
     margin-left: auto;
     margin-right: auto;
 }
+
 thead{
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
 }
 
 tbody{
-    font-size: 14px;
+    font-size: 18px;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
