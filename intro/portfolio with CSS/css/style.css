@@ -10,14 +10,14 @@ body {
 a {
     font-family: 'Verdana', sans-serif;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 18px;
     color: #005733;
     text-decoration: none;
     margin-right: 10px;
     border: #A7B49E solid 3px;
     border-style: dashed;
     background-color: #e2e0c88c;
-    padding: 5px
+    padding: 3px
 }
 
 a.active{
@@ -35,7 +35,7 @@ h2 {
 }
 
 h2:hover{
-    color: aquamarine;
+    color: #344825;
 }
 
 /*Home page*/
@@ -61,6 +61,7 @@ thead{
 
 tbody{
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
 
 /*Contact page*/
@@ -76,4 +77,13 @@ div{
 
 #location{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button{
+    background-color: rgba(31, 213, 31, 0.292);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button:hover{
+    color: #344825;
 }
