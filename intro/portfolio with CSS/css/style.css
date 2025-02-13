@@ -7,6 +7,11 @@ body {
     margin-bottom: 20px;
 }
 
+hr{
+    border-style: double;
+    color: rgb(51, 88, 14);
+}
+
 a {
     font-family: 'Verdana', sans-serif;
     font-weight: bold;
