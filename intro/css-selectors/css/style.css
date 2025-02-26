@@ -6,3 +6,11 @@ h1.hero{
 a, h1{
     color: darkred;
 }
+
+header a{
+    color: darkcyan;
+}
+
+li > a{
+    color: firebrick;
+}
