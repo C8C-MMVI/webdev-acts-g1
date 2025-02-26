@@ -1,0 +1,8 @@
+h1.hero{
+    text-transform: uppercase;
+    color: red;
+}
+
+a, h1{
+    color: darkred;
+}
