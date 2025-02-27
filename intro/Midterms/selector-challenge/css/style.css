@@ -1,9 +1,11 @@
-p{
-    color: darkgray;
+/* Styling featured section paragraphs */
+#featured > .post > p{
+    color: darkgrey;
     font-size: 16px;
     padding-bottom: 5px;
 }
 
+/* Styling paragraph links */
 main > section > article > p > a{
     color: lightblue;
     text-decoration: underline;
@@ -16,8 +18,26 @@ main > section > article > p > a:hover{
     font-weight: bold;
 }
 
-nav ul{
+/* Styling navigation items */
+nav > ul > li{
     display: inline-block;
+    margin-left: auto;
     margin-right: 7px;
     font-weight: bolder;
+}
+
+/* Styling first article heading */
+#featured > .post > h3{
+    color: darkgray;
+    font-size: 22px;
+    margin-bottom: 5px;
+    text-decoration: underline lightgray;
+}
+
+/* Styling footer copyright text */
+footer > p{
+    color: gray;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 50px;
 }

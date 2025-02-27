@@ -14,3 +14,7 @@ header a{
 li > a{
     color: firebrick;
 }
+
+.main-menu > ul:first-child > li:first-child > a{
+    color: aquamarine;
+}
