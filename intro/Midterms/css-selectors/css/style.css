@@ -1,20 +1,76 @@
-h1.hero{
-    text-transform: uppercase;
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap');
+
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-a, h1{
-    color: darkred;
+nav {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
 }
 
-header a{
-    color: darkcyan;
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    gap: 15px;
 }
 
-li > a{
-    color: firebrick;
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    font-weight: 600;
 }
 
-.main-menu > ul:first-child > li:first-child > a{
-    color: aquamarine;
+main > div:nth-child(2) > a:first-child{
+    display: flex;
+}
+main > div:nth-child(2) > a:nth-child(2){
+    display: block;
+    text-align: right;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 8px;
+    font-family: "Big Shoulders", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800px;
+    font-style: normal;
+    width: 70%;
+    
+}
+
+.parent > .card{
+    background-color: bisque;
+    border-radius: 10px;
+    text-align: center;
+    padding: 2% 20%;
+}
+
+.parent > .card > h1{
+    text-align: center;
+    display: inline;
+}
+
+.parent > .card > .price, .artist{
+    text-align: center;
+    display: block;
+    top: 10px;
+}
+
+img{
+    width: 100px;
+    position: relative;
 }
