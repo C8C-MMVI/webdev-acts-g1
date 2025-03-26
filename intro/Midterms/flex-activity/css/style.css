@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: left;
+    margin: 0px;
+    padding: 10px 50px;
+    background-color: beige;
+}
+
+a{
+    color: black;
+}
+
+.logo a{
+    font-family: serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.right-links a{
+    font-family: sans-serif;
+    padding: 10px;
+    justify-content: right;
+}
