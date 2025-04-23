@@ -64,4 +64,5 @@ document.getElementById("divide").addEventListener("click", function(){
     }
     result.classList.add("success")
     result.textContent = "The result is " + (num1 / num2)
+    
 })
