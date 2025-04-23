@@ -23,7 +23,7 @@ body{
         "sidebar sidebar sidebar main"
         "twin twin twin2 twin2"
         "footer footer footer footer";
-    grid-template-columns: 1fr 1fr 1fr auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px;
     height: 500px;
 }
