@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Cal+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Nunito:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --titleFont:  "Big Shoulders", sans-serif;
+    --backColor: #F5EEDD;
+    --debtFont: "Cal Sans", sans-serif;
+    --nameFont: "Nunito", sans-serif;
+}
+
+body{
+    background-color: var(--backColor);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
+
+h1{
+    font-family: var(--titleFont);
+}
+
+input[type="text"], input[type="number"]{
+    padding: 5px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-size: 24px;
+    font-family: var(--nameFont);
+}
+
+button{
+    padding: 5px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-size: 24px;
+    font-family: var(--debtFont);
+}
