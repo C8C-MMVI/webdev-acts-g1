@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Cal+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Nunito:ital@0;1&display=swap');
 
 *{
@@ -8,10 +8,12 @@
 }
 
 :root{
-    --titleFont:  "Big Shoulders", sans-serif;
+    --titleFont:  "IBM Plex Serif", sans-serif;
     --backColor: #F5EEDD;
     --debtFont: "Cal Sans", sans-serif;
     --nameFont: "Nunito", sans-serif;
+    --mainBG: #94B4C1;
+    --radius: 5px;
 }
 
 body{
@@ -21,27 +23,47 @@ body{
 main{
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
-    align-content: center;
     height: 100vh;
 }
 
+.container{
+    padding: 1vh;
+    text-align: center;
+    background-color: var(--mainBG);
+    height: 50vh;
+    width: 50vh;
+    border-radius: var(--radius);
+    
+}
+
 h1{
+    border-radius: var(--radius);
+    background-color: #EFEEEA;
     font-family: var(--titleFont);
 }
 
 input[type="text"], input[type="number"]{
-    padding: 5px;
+    text-align: center;
+    padding: auto;
     margin: 10px 0;
-    border-radius: 5px;
-    font-size: 24px;
+    border-radius: var(--radius);
+    font-size: 20px;
     font-family: var(--nameFont);
+    border: none;
 }
 
-button{
-    padding: 5px;
-    margin: 10px 0;
-    border-radius: 5px;
-    font-size: 24px;
-    font-family: var(--debtFont);
+form > #buttons > button{
+    border: none;
+    padding: 1px 15px;
+    border-radius: var(--radius);
+    font-size: 18px;
+    font-family: var(--nameFont);
+    border: none;
+}
+
+button:hover{
+    border: none;
+    background-color: white;
 }

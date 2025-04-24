@@ -9,15 +9,20 @@
   </head>
   <body>
     <main>
-      <h1>Listahan ng Utang (Debt list)</h1>
-      <div class="addDebt">
-        <input type="text" id="name" placeholder="Pangalan" required/>
-        <input type="number" id="utang" placeholder="Utang" required/>
-        <button>Save</button>
+      <div class="container">
+        <h1>Listahan ng Utang (Debt list)</h1>
+        <form>
+          <input type="text" id="name" placeholder="Pangalan" required />
+          <input type="number" id="utang" placeholder="Utang" required />
+          <div id="buttons">
+            <button>Save</button>
+            <button>Clear</button>
+          </div>
+        </form>
       </div>
+
       <div>
-        <ul id="nakautangs">
-        </ul>
+        <ul id="nakautangs"></ul>
       </div>
     </main>
   </body>
