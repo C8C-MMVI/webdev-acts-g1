@@ -55,14 +55,13 @@ document.getElementById("divide").addEventListener("click", function(){
         return
     }
 
-    result.classList.remove("error")
-
     if (num2 === 0){
         result.textContent = "Cannot divide by 0"
         result.classList.add("error")
         return
     }
     result.classList.add("success")
+    result.classList.remove("error")
     result.textContent = "The result is " + (num1 / num2)
     
 })
