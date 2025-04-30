@@ -1,11 +1,22 @@
-const lenders = document.getElementById("nakautangs")
-const newUtang = document.createElement("li")
+const names = document.getElementById("names");
+const utang = document.getElementById("utang");
+const list = document.getElementById("nakautangs");
+const save = document.getElementById("save");
 
-let name = document.getElementById("name")
-let utang = parseFloat(document.getElementById("utang"))
-while (i != 0){
-    newUtang.textContent = i + " " + name + " - " + utang
-    i++
-}
+save.addEventListener("click", function () {
+  const nameValue = names.value;
+  const utangValue = utang.value;
 
-lenders.appendChild("newUtang")
+  if (nameValue !== "" && utangValue !== "") {
+    const newUtang = document.createElement("li");
+    newUtang.textContent = `${nameValue} - \t ${utangValue}`;
+
+    list.appendChild(newUtang);
+
+    names.value = "";
+    utang.value = "";
+  } else {
+    alert("Sino yang may utang, at saan ang utang niya? Gawin mo ulit");
+  }
+});
+

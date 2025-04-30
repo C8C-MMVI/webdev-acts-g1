@@ -10,7 +10,7 @@
 :root{
     --titleFont:  "IBM Plex Serif", sans-serif;
     --backColor: #F5EEDD;
-    --debtFont: "Cal Sans", sans-serif;
+    /* --debtFont: "Cal Sans", sans-serif; */
     --nameFont: "Nunito", sans-serif;
     --mainBG: #94B4C1;
     --radius: 5px;
@@ -33,7 +33,7 @@ main{
     text-align: center;
     background-color: var(--mainBG);
     height: 50vh;
-    width: 50vh;
+    width: 100vh;
     border-radius: var(--radius);
     
 }
@@ -66,4 +66,16 @@ form > #buttons > button{
 button:hover{
     border: none;
     background-color: white;
+}
+
+#nakautangs {
+    text-align: center;
+    background-color: var(--backColor);
+    border: 1px solid black;
+    border-radius: var(--radius);
+    list-style-type: none;
+    margin-top: 15px;
+    padding: 0;
+    font-family: var(--nameFont);
+    font-size: 18px;
 }

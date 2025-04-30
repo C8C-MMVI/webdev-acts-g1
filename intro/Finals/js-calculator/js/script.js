@@ -15,7 +15,7 @@ document.getElementById("add").addEventListener("click", function(){
     result.textContent = "The result is " + (num1 + num2)
 })
 
-document.getElementById("add").addEventListener("click", function(){
+document.getElementById("subtract").addEventListener("click", function(){
     let num1 = parseFloat(document.getElementById("operand1").value)
     let num2 = parseFloat(document.getElementById("operand2").value)
     
