@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Dashboard</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+
+    header {
+      background-color: #1d3557;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .dashboard {
+      display: flex;
+      flex: 1;
+      min-height: 0;
+    }
+
+    nav {
+      width: 250px;
+      background-color: #457b9d;
+      color: white;
+      padding: 1rem;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    nav ul li {
+      margin: 1rem 0;
+    }
+
+    main {
+      flex: 1;
+      padding: 1rem;
+      background-color: #f1faee;
+      overflow-y: auto;
+    }
+
+    .card {
+      background-color: white;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    @media (max-width: 768px) {
+      .dashboard {
+        flex-direction: column;
+      }
+
+      nav {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Dashboard</h1>
+  </header>
+
+  <div class="dashboard">
+    <nav>
+      <ul>
+        <li>🏠 Home</li>
+        <li>📊 Reports</li>
+        <li>⚙️ Settings</li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="card">
+        <h2>Welcome</h2>
+        <p>This is your responsive dashboard.</p>
+      </div>
+      <div class="card">
+        <h2>Stats</h2>
+        <p>Here’s a quick look at your current data.</p>
+      </div>
+    </main>
+  </div>
+
+</body>
+</html>
