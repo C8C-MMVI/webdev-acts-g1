@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        const sidebar= document.querySelector("aside")
+        document.querySelector(".toggle").addEventListener("click", function(){
+            sidebar.classList.toggle("visible")
+        })
+    </script>
+</head>
+<body>
+    <aside>
+        <ul>
+            <li>Link 1</li>
+            <li>Link 2</li>
+            <li>Link 3</li>
+            <li>Link 4</li>
+        </ul>
+    </aside>
+    <main>
+        <div class="toggle">Menu Toggle</div>
+        <h1>Content goes here</h1>
+    </main>
+</body>
+</html>

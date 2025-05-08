@@ -33,7 +33,7 @@ main{
     text-align: center;
     background-color: var(--mainBG);
     height: 50vh;
-    width: 100vh;
+    width: auto;
     border-radius: var(--radius);
     
 }

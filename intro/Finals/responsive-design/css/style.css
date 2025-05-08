@@ -7,8 +7,11 @@
 
 body{
     display: grid;
-    grid-template-areas: "sidebar main";
+    grid-template-areas: 
+    "sidebar main"
+    ;
     grid-template-columns: 300px 1fr;
+    gap: 10px;
 }
 
 aside{
@@ -18,6 +21,11 @@ aside{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+aside ul{
+    list-style-type: none;
 }
 
 main{
@@ -25,4 +33,8 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media(max-width: 48em){
+
 }
