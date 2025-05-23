@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MediCheck - Dashboard</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <main>
+    <div class="options">
+      <a href="#">Home</a>
+      <a href="#">Appointments</a>
+      <a href="#">Reports</a>
+      <div id="search">
+        <form action="#" method="GET">
+          <input type="text" name="query" placeholder="Search..." />
+          <button type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="tableCoffee">
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Patient</th>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Service</th>
+            <th>Status</th>
+            <th>Remarks</th>
+            <th>Priority</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>001</td>
+            <td>Jane Doe</td>
+            <td>05/25</td>
+            <td>10:00 AM</td>
+            <td>Consultation</td>
+            <td>Confirmed</td>
+            <td>None</td>
+            <td>HIGH</td>
+            <td class="actions">
+              <a href="#">View</a>
+              <a href="#" class="edit">Edit</a>
+              <a href="#" class="delete">Delete</a>
+            </td>
+          </tr>
+          <!-- More rows as needed -->
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+</body>
+</html>
