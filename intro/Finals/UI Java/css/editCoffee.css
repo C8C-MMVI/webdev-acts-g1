@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --logoFont: "Special Gothic Expanded One", sans-serif;
+    --baseFont: "Montserrat", sans-serif;
+    --primaryColor: #3F4F44;
+    --secondaryColor: #2C3930;
+    /* Accent Colors */
+    --boldColor: #FFF0DC;
+    --lightFontColor: #543A14;
+    --borderColor: 5px solid #A27B5C;
+    --borderColorOnly: #A27B5C;
+    --delete: #E07B39;
+    --edit: #F0BB78;
+    --error: #FE4F2D;
+    --borderRadius: 5px;
+}
+
+body {
+    background-color: var(--primaryColor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.form-container h2 {
+    color: var(--boldColor);
+    font-family: var(--logoFont);
+    background-color: #A27B5C;
+    letter-spacing: 5px;
+    text-align: center;
+    margin: 5px auto;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.form-container {
+    background-color: #DCD7C9;
+    max-width: 500px;
+    height: auto;
+    padding: 25px;
+    border-radius: 10px;
+    color: var(--lightFontColor);
+    border-top: var(--borderColor);
+    border-left: var(--borderColor);
+}
+
+.form-container label {
+    display: block;
+    font-weight: bold;
+    font-family: var(--baseFont);
+}
+
+.form-container input[type="text"],
+.form-container input[type="number"],
+.form-container select {
+    width: 100%;
+    padding: 6px 8px;
+    font-family: var(--baseFont);
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #A27B5C;
+}
+
+.form-container input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.form-container .flavor-group {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6px 12px;
+}
+
+.form-container .flavor-group label {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.form-container .error {
+    color: var(--error);
+    font-size: 13px;
+    margin-top: 4px;
+    font-family: var(--baseFont);
+}
+
+
+input.error,
+select.error {
+    border: 2px solid var(--error);
+    background-color: #ffeae6;
+    color: var(--error);
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.action button,
+.action a.button {
+    font-size: 14px;
+    padding: 8px 20px;
+    font-family: var(--baseFont);
+    font-weight: bold;
+    background-color: #A27B5C;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.action button:hover,
+.action a.button:hover {
+    background-color: white;
+    color: #A27B5C;
+    text-decoration: underline;
+}
